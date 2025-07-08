@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Envases Compostables del Perú</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #388E3C;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #4CAF50;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+    footer {
+      background-color: #2E7D32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    /* Nueva sección gestión */
+    .gestion {
+      background: #f1f8e9;
+      border-left: 5px solid #81c784;
+      margin: 32px auto 0 auto;
+      max-width: 900px;
+      padding: 22px 24px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(67,160,71,0.06);
+    }
+    .gestion h2 {
+      color: #388e3c;
+      margin-top: 0;
+    }
+    .valor {
+      background: #e8f5e9;
+      border-left: 4px solid #4CAF50;
+      padding: 16px 20px;
+      margin-bottom: 18px;
+      border-radius: 8px;
+    }
+    .emoji {
+      font-size: 1.2em;
+      margin-right: 4px;
+    }
+    @media (max-width: 600px) {
+      section, .gestion { padding: 12px 4px; }
+      table, th, td { font-size: 14px;}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Envases Compostables del Perú</h1>
+  <p>Máquina expendedora ecológica con materiales naturales de la costa, sierra y selva.</p>
+  <a class="btn" href="#productos">Ver productos</a>
+</header>
+
+<nav>
+  <a href="#que-es">¿Qué es?</a>
+  <a href="#materiales">Materiales</a>
+  <a href="#productos">Productos</a>
+  <a href="#impacto">Impacto</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="que-es">
+  <h2>¿Qué es nuestra solución?</h2>
+  <p>Una máquina expendedora de envases biodegradables elaborados con residuos agrícolas del Perú. Distribuye tapers, vasos, bowls y bandejas que reemplazan al plástico y reducen el impacto ambiental.</p>
+  <ul>
+    <li>♻️ 100% compostable</li>
+    <li>🇵🇪 Hecho con insumos peruanos</li>
+    <li>🌎 Menor impacto ambiental</li>
+    <li>🤝 Apoyo a comunidades locales</li>
+  </ul>
+</section>
+
+<section id="materiales">
+  <h2>Materiales por región</h2>
+  <table>
+    <tr>
+      <th>Región</th>
+      <th>Materiales principales</th>
+      <th>Características clave</th>
+    </tr>
+    <tr>
+      <td>Costa</td>
+      <td>Bagazo de caña, cáscara de arroz, fibra de maíz</td>
+      <td>Resistente al calor, buena para bandejas</td>
+    </tr>
+    <tr>
+      <td>Sierra</td>
+      <td>Ichu, papa, maíz, quinua</td>
+      <td>Fibrosos, moldeables, compostables</td>
+    </tr>
+    <tr>
+      <td>Selva</td>
+      <td>Hoja de bijao, yuca, cáscara de plátano</td>
+      <td>Impermeables, biodegradables, locales</td>
+    </tr>
+  </table>
+</section>
+
+<section id="productos">
+  <h2>Productos disponibles</h2>
+  <ul>
+    <li>🥗 Bowls compostables</li>
+    <li>🥤 Vasos biodegradables</li>
+    <li>🍱 Tapers ecológicos</li>
+    <li>🧃 Tapas naturales</li>
+    <li>🧺 Bandejas para alimentos</li>
+  </ul>
+  <a class="btn" href="#contacto">Solicitar catálogo</a>
+</section>
+
+<section id="componentes">
+  <h2>Componentes del Producto/Servicio</h2>
+  <table>
+    <tr>
+      <th>Elemento</th>
+      <th>Descripción</th>
+    </tr>
+    <tr>
+      <td>Envases biodegradables</td>
+      <td>Fabricados con bagazo de caña de azúcar (residuo agrícola). Compostables y resistentes.</td>
+    </tr>
+    <tr>
+      <td>Máquina expendedora</td>
+      <td>Dispensador inteligente con pantalla táctil, pagos digitales y escaneo QR.</td>
+    </tr>
+    <tr>
+      <td>Aplicación móvil/web</td>
+      <td>Plataforma de gestión para negocios y usuarios: historial de consumo, puntos, membresías.</td>
+    </tr>
+    <tr>
+      <td>Sistema de incentivos</td>
+      <td>Puntos por compra, descuentos por uso frecuente o compras sostenibles.</td>
+    </tr>
+    <tr>
+      <td>Postconsumo (compostaje)</td>
+      <td>Los envases, tras su uso, pueden ser usados como materia orgánica para compost domiciliario o institucional.</td>
+    </tr>
+    <tr>
+      <td>Gestión de datos</td>
+      <td>Métricas sobre consumo, ahorro de plástico, zonas con mayor demanda.</td>
+    </tr>
+  </table>
+</section>
+
+<div class="gestion">
+  <h2>📱 Plataforma de gestión para negocios y usuarios</h2>
+  <ul>
+    <li><strong>Historial de consumo:</strong> Consulta y administra las compras realizadas de envases compostables.</li>
+    <li><strong>Puntos e incentivos:</strong> Acumula puntos por cada compra y obtén descuentos por uso frecuente o compras sostenibles.</li>
+    <li><strong>Membresías:</strong> Acceso a membresías exclusivas y programas de fidelización.</li>
+    <li><strong>Gestión digital:</strong> Todo desde una aplicación móvil o web fácil de usar, tanto para negocios como para consumidores individuales.</li>
+    <li><strong>Visualización de impacto:</strong> Observa el impacto ambiental generado y tu aporte a la reducción de plásticos.</li>
+  </ul>
+</div>
+
+<section id="impacto">
+  <h2>Impacto ambiental y social</h2>
+  <ul>
+    <li>🌱 Disminuye residuos plásticos</li>
+    <li>👩🏽‍🌾 Promueve economía circular</li>
+    <li>🧑🏽‍🎓 Apoya educación ambiental</li>
+    <li>💡 Iniciativa de jóvenes innovadores</li>
+  </ul>
+</section>
+
+<section id="valor">
+  <h2>Valor diferencial</h2>
+  <div class="valor"><span class="emoji">⚡</span>Acceso rápido y local a envases sostenibles.</div>
+  <div class="valor"><span class="emoji">🌱</span>Fácil disposición final mediante compostaje doméstico o comunitario.</div>
+  <div class="valor"><span class="emoji">🤲</span>Sin intermediarios: autoservicio para negocios y personas.</div>
+  <div class="valor"><span class="emoji">💲</span>Asequible y escalable, ideal para pequeños emprendimientos.</div>
+  <div class="valor"><span class="emoji">📊</span>Trazabilidad digital para medir impacto ambiental real.</div>
+</section>
+
+<section id="contacto">
+  <h2>Contáctanos</h2>
+  <p>¿Deseas más información o establecer una alianza comercial? Escríbenos:</p>
+  <p>📧 <a href="mailto:EcoKaña@gmail.com">EcoKaña@gmail.com</a></p>
+  <p>📍 La Molina, Lima – Perú</p>
+  <p>📱 <a href="https://wa.me/51963802190" target="_blank">WhatsApp: 963 802 190</a></p>
+  <a class="btn" href="https://wa.me/51963802190" target="_blank">Contáctanos por WhatsApp</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 EcoPack Perú – Todos los derechos reservados.</p>
+  <p><strong>Integrantes:</strong> Javier Escudero, Brescia Vásquez, Claudia Huarcaya, Camila López</p>
+</footer>
+
+</body>
+</html>
